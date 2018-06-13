@@ -5,3 +5,7 @@
   
 ### rabbitMq
   1. [rabbitMq使用](https://github.com/clms2/arcs/issues/2)
+  
+  
+### linux
+  1. [误删文件恢复](https://github.com/clms2/arcs/issues/3)

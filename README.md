@@ -12,4 +12,4 @@
   2. [误删文件恢复](https://github.com/clms2/arcs/issues/3)
   
 ### mysql
-  1. [跨库分页问题](https://github.com/clms2/arcs/issues/5)
+  1. [跨库分页问题](https://cloud.tencent.com/developer/article/1048654)

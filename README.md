@@ -13,3 +13,4 @@
   
 ### mysql
   1. [跨库分页问题](https://cloud.tencent.com/developer/article/1048654)
+  2. [mysql大表优化](https://segmentfault.com/a/1190000006158186)

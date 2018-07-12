@@ -17,5 +17,5 @@
 ### tool
   1. [sonarQube使用](https://github.com/clms2/arcs/issues/7)
 
-### 其他
+### other
   1. [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)

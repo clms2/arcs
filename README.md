@@ -14,6 +14,7 @@
 ### mysql
   1. [跨库分页问题](https://cloud.tencent.com/developer/article/1048654)
   2. [mysql大表优化](https://segmentfault.com/a/1190000006158186)
+  3. [github的mysql高可用](http://blog.jobbole.com/114200/)&nbsp;&nbsp;&nbsp;&nbsp;[原文](https://githubengineering.com/mysql-high-availability-at-github/)
 ### tool
   1. [sonarQube使用](https://github.com/clms2/arcs/issues/7)
 

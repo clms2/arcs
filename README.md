@@ -19,5 +19,5 @@
   1. [sonarQube使用](https://github.com/clms2/arcs/issues/7)
 
 ### other
-  1. [线上bug汇总](https://github.com/clms2/arcs/issues/9)
+  1. [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
   2. [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)

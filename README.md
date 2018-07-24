@@ -6,10 +6,10 @@
 ### rabbitMq
   1. [rabbitMq使用](https://github.com/clms2/arcs/issues/2)
   
-  
 ### linux
   1. [linux删除软链不能带/](https://github.com/clms2/arcs/issues/4)
   2. [误删文件恢复](https://github.com/clms2/arcs/issues/3)
+  3. [常用命令](https://github.com/clms2/arcs/issues/8)
   
 ### mysql
   1. [跨库分页问题](https://cloud.tencent.com/developer/article/1048654)
@@ -19,4 +19,5 @@
   1. [sonarQube使用](https://github.com/clms2/arcs/issues/7)
 
 ### other
-  1. [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)
+  1. [线上bug汇总](https://github.com/clms2/arcs/issues/9)
+  2. [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)

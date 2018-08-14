@@ -1,7 +1,7 @@
 ## 文章目录
 
 ### Laravel
-  1. [使用模型和模型关系的好处](https://github.com/clms2/arcs/issues/1)
+  1. [使用模型和模型关系的好处](https://github.com/clms2/arcs/issues/1)
   2. [laravel定时任务](https://divinglaravel.com/task-scheduling)
   
 ### rabbitMq

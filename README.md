@@ -18,6 +18,7 @@
   3. [github的mysql高可用](http://blog.jobbole.com/114200/)&nbsp;&nbsp;&nbsp;&nbsp;[原文](https://githubengineering.com/mysql-high-availability-at-github/)
 ### tool
   1. [sonarQube使用](https://github.com/clms2/arcs/issues/7)
+  2. [sourcetree跳过注册](https://github.com/clms2/arcs/issues/10)
 
 ### other
   1. [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)

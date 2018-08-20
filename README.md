@@ -25,6 +25,6 @@
   - [sourcetree跳过注册](https://github.com/clms2/arcs/issues/10)
   - [git常用命令](https://github.com/clms2/arcs/issues/11)
 
-### 7. other
+### 6. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
   - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)

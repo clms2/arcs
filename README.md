@@ -21,6 +21,7 @@
   - [sonarQube使用](https://github.com/clms2/arcs/issues/7)
   
 #### 5.1 Git
+  - [git手册](https://git-scm.com/book/zh/v2)
   - [sourcetree跳过注册](https://github.com/clms2/arcs/issues/10)
   - [git常用命令](https://github.com/clms2/arcs/issues/11)
 

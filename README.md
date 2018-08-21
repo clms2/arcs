@@ -3,6 +3,7 @@
 ### 1. Laravel
   - [使用模型和模型关系的好处](https://github.com/clms2/arcs/issues/1)
   - [laravel定时任务](https://divinglaravel.com/task-scheduling)
+  - [使laravel查询更优雅的方式](https://segmentfault.com/a/1190000012987608)
   
 ### 2. rabbitMq
   - [rabbitMq使用](https://github.com/clms2/arcs/issues/2)
@@ -24,6 +25,9 @@
   - [git手册](https://git-scm.com/book/zh/v2)
   - [sourcetree跳过注册](https://github.com/clms2/arcs/issues/10)
   - [git常用命令](https://github.com/clms2/arcs/issues/11)
+
+#### 5.2 极验
+  - [极验使用](https://github.com/clms2/arcs/issues/12)
 
 ### 6. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)

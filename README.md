@@ -8,7 +8,7 @@
   
 ### 2. php
   - [代码简洁](https://segmentfault.com/a/1190000015098729)
-  - [psr](https://psr.phphub.org/)
+  - [psr](https://psr.phphub.org/),可使用[phpcs](https://github.com/squizlabs/PHP_CodeSniffer)使代码符合psr
   
 ### 3. rabbitMq
   - [rabbitMq使用](https://github.com/clms2/arcs/issues/2)
@@ -37,7 +37,7 @@
   - [极验使用](https://github.com/clms2/arcs/issues/12)
 
 #### 6.4 phpcs
-  - [phpcs](https://segmentfault.com/a/1190000015971297)
+  - [phpcs使用](https://segmentfault.com/a/1190000015971297)
 
 ### 7. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)

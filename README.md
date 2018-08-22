@@ -36,6 +36,9 @@
 #### 6.3 极验
   - [极验使用](https://github.com/clms2/arcs/issues/12)
 
+#### 6.4 phpcs
+  - [phpcs](https://segmentfault.com/a/1190000015971297)
+
 ### 7. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
   - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)

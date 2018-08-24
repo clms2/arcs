@@ -31,6 +31,7 @@
   
 #### 6.2 Git
   - [git手册](https://git-scm.com/book/zh/v2)
+  - [tortoiseGit](https://github.com/clms2/arcs/raw/master/res/exe/tortoiseGit64.zip)
   - [sourcetree跳过注册](https://github.com/clms2/arcs/issues/10)
   - [git常用命令](https://github.com/clms2/arcs/issues/11)
 

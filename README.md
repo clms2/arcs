@@ -18,6 +18,7 @@
   - [linux删除软链不能带/](https://github.com/clms2/arcs/issues/4)
   - [误删文件恢复](https://github.com/clms2/arcs/issues/3)
   - [常用命令](https://github.com/clms2/arcs/issues/8)
+  - [ssh公钥登录](https://github.com/clms2/arcs/issues/18)
   
 ### 5. mysql
   - [跨库分页问题](https://cloud.tencent.com/developer/article/1048654)

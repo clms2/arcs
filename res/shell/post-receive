@@ -1,0 +1,30 @@
+#!/bin/sh
+TEST_WEB_DIR=/vdb1/web/gitTest/
+PRD_WEB_DIR=/vdb1/web/gitTest/
+TEST_GIT_DIR=${TEST_WEB_DIR}".git"
+PRD_GIT_DIR=${PRD_WEB_DIR}".git"
+
+refs=$(git log -1 --all | head -1 | awk '{print $2}')
+master=$(git show-ref --verify refs/heads/master | awk '{print $1}')
+develop=$(git show-ref develop | awk '{print $1}' | head -1)
+
+echo ${refs},'||',${master},'||',${develop} >> /log.log
+# 同步生产环境
+if [ $refs = $master ];
+then
+#	echo 'in master' >> /log.log
+	
+	ssh user@host << remotessh
+pushd ${PRD_WEB_DIR}
+git --git-dir=${PRD_GIT_DIR} pull origin master
+exit
+remotessh
+# 同步本机的测试环境
+elif [ $refs = $develop ]
+then
+#	echo 'in develop' >> /log.log
+	
+	pushd ${TEST_WEB_DIR}	
+	git --git-dir=${TEST_GIT_DIR} pull origin develop
+fi
+exit 0

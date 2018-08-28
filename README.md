@@ -36,6 +36,8 @@
   - [tortoiseGit](https://github.com/clms2/arcs/raw/master/res/exe/tortoiseGit64.zip)
   - [sourcetree跳过注册](https://github.com/clms2/arcs/issues/10)
   - [git常用命令](https://github.com/clms2/arcs/issues/11)
+  - [gitlab custom hooks每次提交同步到web目录](https://github.com/clms2/arcs/issues/17)
+  - [将已有的目录作为git客户端](https://github.com/clms2/arcs/issues/19)
 
 #### 6.3 极验
   - [极验使用](https://github.com/clms2/arcs/issues/12)

@@ -38,7 +38,6 @@
   - [git常用命令](https://github.com/clms2/arcs/issues/11)
   - [gitlab custom hooks每次提交同步到web目录](https://github.com/clms2/arcs/issues/17)
   - [将已有的目录作为git客户端](https://github.com/clms2/arcs/issues/19)
-  - [ssh公钥登录](https://github.com/clms2/arcs/issues/18)
 
 #### 6.3 极验
   - [极验使用](https://github.com/clms2/arcs/issues/12)

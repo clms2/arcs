@@ -26,6 +26,7 @@
   - [github的mysql高可用](http://blog.jobbole.com/114200/)&nbsp;&nbsp;&nbsp;&nbsp;[原文](https://githubengineering.com/mysql-high-availability-at-github/)
   - [数据库记录慢查询](https://github.com/clms2/arcs/issues/13)
   - [mysql partition](https://github.com/clms2/arcs/issues/15)
+  - [手册](https://dev.mysql.com/doc/refman/5.7/en/)
   
 ### 6. tool
 #### 6.1 sonarQube

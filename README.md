@@ -20,7 +20,10 @@
   - [常用命令](https://github.com/clms2/arcs/issues/8)
   - [ssh公钥登录](https://github.com/clms2/arcs/issues/18)
   
-### 5. mysql
+### 5. windows
+  - [右键删除svn目录](https://raw.githubusercontent.com/clms2/arcs/master/res/other/delete_svn_folder.reg)
+  
+### 6. mysql
   - [跨库分页问题](https://cloud.tencent.com/developer/article/1048654)
   - [mysql大表优化](https://segmentfault.com/a/1190000006158186)
   - [github的mysql高可用](http://blog.jobbole.com/114200/)&nbsp;&nbsp;&nbsp;&nbsp;[原文](https://githubengineering.com/mysql-high-availability-at-github/)
@@ -28,11 +31,11 @@
   - [mysql partition](https://github.com/clms2/arcs/issues/15)
   - [手册](https://dev.mysql.com/doc/refman/5.7/en/)
   
-### 6. tool
-#### 6.1 sonarQube
+### 7. tool
+#### 7.1 sonarQube
   - [sonarQube使用](https://github.com/clms2/arcs/issues/7)
   
-#### 6.2 Git
+#### 7.2 Git
   - [git手册](https://git-scm.com/book/zh/v2)
   - [tortoiseGit](https://github.com/clms2/arcs/raw/master/res/exe/tortoiseGit64.zip)
   - [sourcetree跳过注册](https://github.com/clms2/arcs/issues/10)
@@ -40,12 +43,12 @@
   - [gitlab custom hooks每次提交同步到web目录](https://github.com/clms2/arcs/issues/17)
   - [将已有的目录作为git客户端](https://github.com/clms2/arcs/issues/19)
 
-#### 6.3 极验
+#### 7.3 极验
   - [极验使用](https://github.com/clms2/arcs/issues/12)
 
-#### 6.4 phpcs
+#### 7.4 phpcs
   - [phpcs使用](https://segmentfault.com/a/1190000015971297)
 
-### 7. other
+### 8. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
 <!--  - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)->

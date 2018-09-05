@@ -48,6 +48,9 @@
 
 #### 7.4 phpcs
   - [phpcs使用](https://segmentfault.com/a/1190000015971297)
+  
+#### 7.5 composer
+  - [composer常用命令](https://github.com/clms2/arcs/issues/20)
 
 ### 8. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)

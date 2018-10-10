@@ -53,6 +53,9 @@
 #### 7.5 composer
   - [composer常用命令](https://github.com/clms2/arcs/issues/20)
 
-### 8. other
+### 8. Vue
+ - [vue采坑]()
+
+### 9. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
 <!--  - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)->

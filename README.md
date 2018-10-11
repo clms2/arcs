@@ -54,7 +54,7 @@
   - [composer常用命令](https://github.com/clms2/arcs/issues/20)
 
 ### 8. Vue
- - [vue采坑]()
+ - [vue采坑](https://github.com/clms2/arcs/issues/21)
 
 ### 9. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)

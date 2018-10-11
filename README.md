@@ -8,7 +8,7 @@
   - [1对多关系的表，获取1表的20条数据，同时获取多表最新几条数据](https://github.com/clms2/arcs/issues/16)
   
 ### 2. php
-  - [代码简洁](https://segmentfault.com/a/1190000015098729)
+  - <a href="https://segmentfault.com/a/1190000015098729" target="_blank">代码简洁</a>
   - [psr](https://psr.phphub.org/), 可使用[phpcs](https://github.com/squizlabs/PHP_CodeSniffer)使代码符合psr
   
 ### 3. rabbitMq

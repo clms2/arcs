@@ -11,6 +11,7 @@
 ### 2. php
   - <a href="https://segmentfault.com/a/1190000015098729" target="_blank">代码简洁</a>
   - [psr](https://psr.phphub.org/), 可使用[phpcs](https://github.com/squizlabs/PHP_CodeSniffer)使代码符合psr
+  - [编码风格](https://github.com/clms2/arcs/issues/24)
   
 ### 3. rabbitMq
   - [rabbitMq使用](https://github.com/clms2/arcs/issues/2)
@@ -33,6 +34,7 @@
   - [mysql partition](https://github.com/clms2/arcs/issues/15)
   - [常用配置](https://github.com/clms2/arcs/issues/22)
   - [手册](https://dev.mysql.com/doc/refman/5.7/en/)
+  - [数据库规范参考](https://github.com/clms2/arcs/issues/25)
   
 ### 7. tool
 #### 7.1 sonarQube
@@ -60,4 +62,6 @@
 
 ### 9. other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
-<!--  - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)->
+<!--  - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)
+- [关于微服务化的api project demo](https://github.com/clms2/arcs/issues/27)
+->

@@ -35,6 +35,7 @@
   - [常用配置](https://github.com/clms2/arcs/issues/22)
   - [手册](https://dev.mysql.com/doc/refman/5.7/en/)
   - [数据库规范参考](https://github.com/clms2/arcs/issues/25)
+  - [mysql explain说明](https://github.com/clms2/arcs/issues/29)
   
 ### 7. tool
 #### 7.1 sonarQube

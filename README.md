@@ -22,6 +22,7 @@
   - [常用命令](https://github.com/clms2/arcs/issues/8)
   - [ssh公钥登录](https://github.com/clms2/arcs/issues/18)
   - [shell if](https://www.cnblogs.com/aaronLinux/p/7074725.html)
+  - [awk](http://blog.jobbole.com/114490/)
   
 ### 5. windows
   - [右键删除svn目录](https://raw.githubusercontent.com/clms2/arcs/master/res/other/delete_svn_folder.reg)

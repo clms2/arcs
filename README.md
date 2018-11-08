@@ -13,7 +13,7 @@
   - [psr](https://psr.phphub.org/), 可使用[phpcs](https://github.com/squizlabs/PHP_CodeSniffer)使代码符合psr
   - [编码风格参考](https://github.com/clms2/arcs/issues/24)
   
-### 3.tool
+### 3. tool
   - [rabbitMq使用](https://github.com/clms2/arcs/issues/2)
   - [redis基础、高级特性与性能调优](http://blog.jobbole.com/114445/)
   

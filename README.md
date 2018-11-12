@@ -15,9 +15,6 @@
 
 ### javascript
   - [javascript](https://github.com/clms2/arcs/issues/31)
-### tool
-  - [rabbitMq使用](https://github.com/clms2/arcs/issues/2)
-  - [redis基础、高级特性与性能调优](http://blog.jobbole.com/114445/)
   
 ### linux
   - [linux删除软链不能带/](https://github.com/clms2/arcs/issues/4)
@@ -46,10 +43,10 @@
   - [mysql不常用sql](https://github.com/clms2/arcs/issues/32)
   
 ### third tool
-#### 1 sonarQube
+#### 1. sonarQube
   - [sonarQube使用](https://github.com/clms2/arcs/issues/7)
   
-#### 2 Git
+#### 2. Git
   - [git手册](https://git-scm.com/book/zh/v2)
   - [tortoiseGit](https://github.com/clms2/arcs/raw/master/res/exe/tortoiseGit64.zip)
   - [sourcetree跳过注册](https://github.com/clms2/arcs/issues/10)
@@ -57,17 +54,23 @@
   - [gitlab custom hooks每次提交同步到web目录](https://github.com/clms2/arcs/issues/17)
   - [将已有的目录作为git客户端](https://github.com/clms2/arcs/issues/19)
 
-#### 3 极验
+#### 3. 极验
   - [极验使用](https://github.com/clms2/arcs/issues/12)
 
-#### 4 phpcs
+#### 4. phpcs
   - [phpcs使用](https://segmentfault.com/a/1190000015971297)
   
-#### 5 composer
+#### 5. composer
   - [composer常用命令](https://github.com/clms2/arcs/issues/20)
   
-#### 6 svn
+#### 6. svn
   - [svn](https://github.com/clms2/arcs/issues/28)
+  
+#### 7. rabbitMq
+  - [rabbitMq使用](https://github.com/clms2/arcs/issues/2)
+
+#### 8. redis
+  - [redis基础、高级特性与性能调优](http://blog.jobbole.com/114445/)
 
 ### Vue
  - [vue采坑](https://github.com/clms2/arcs/issues/21)

@@ -43,7 +43,7 @@
   - [手册](https://dev.mysql.com/doc/refman/5.7/en/)
   - [数据库规范参考](https://github.com/clms2/arcs/issues/25)
   - [mysql explain说明](https://github.com/clms2/arcs/issues/29)
-  - [mysql常用](https://github.com/clms2/arcs/issues/32)
+  - [mysql不常用sql](https://github.com/clms2/arcs/issues/32)
   
 ### third tool
 #### 1 sonarQube

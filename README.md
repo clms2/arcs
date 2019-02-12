@@ -78,5 +78,5 @@
 ### other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
   - [py-key-sender-unfinished](https://github.com/clms2/arcs/blob/master/res/other/py-key-sender-unfinished.zip)
-  - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)
+<!--  - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)-->
   - [关于微服务化的api project demo](https://github.com/clms2/arcs/issues/27)

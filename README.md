@@ -6,6 +6,7 @@
   - [使laravel查询更优雅的方式](https://segmentfault.com/a/1190000012987608)
   - [laravel最佳实践](https://github.com/clms2/arcs/issues/14)
   - [1对多关系的表，获取1表的20条数据，同时获取多表最新几条数据](https://github.com/clms2/arcs/issues/16)
+  - [laravel generator](http://labs.infyom.com/laravelgenerator/docs/5.8/installation) 还需要个[l5-repository](https://github.com/clms2/laravel-generator)
   - [other](https://github.com/clms2/arcs/issues/23)
   
 ### php

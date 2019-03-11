@@ -29,6 +29,7 @@
 ### apache
   - [apache常用命令](https://github.com/clms2/arcs/issues/30)
   - [本地apache配置https访问](https://github.com/clms2/arcs/issues/34)
+  - [apache配置允许跨域](https://github.com/clms2/arcs/issues/35)
 ### windows
   - [右键删除svn目录](https://raw.githubusercontent.com/clms2/arcs/master/res/other/delete_svn_folder.reg)
   

@@ -76,7 +76,7 @@
   - [redis基础、高级特性与性能调优](http://blog.jobbole.com/114445/)
 
 #### 9. memcached
-  - [安装](https://github.com/clms2/arcs/issues/36)
+  - [windows memcached安装](https://github.com/clms2/arcs/issues/36)
 
 ### Vue
  - [vue采坑](https://github.com/clms2/arcs/issues/21)

@@ -17,6 +17,9 @@
 
 ### javascript
   - [javascript](https://github.com/clms2/arcs/issues/31)
+
+### css
+  - [css](https://github.com/clms2/arcs/issues/39)
   
 ### linux
   - [linux删除软链不能带/](https://github.com/clms2/arcs/issues/4)

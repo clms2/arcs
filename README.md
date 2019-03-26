@@ -11,6 +11,7 @@
   - [other](https://github.com/clms2/arcs/issues/23)
   
 ### php
+  - [php](https://github.com/clms2/arcs/issues/40)
   - <a href="https://segmentfault.com/a/1190000015098729" target="_blank">代码简洁</a>
   - [psr](https://psr.phphub.org/), 可使用[phpcs](https://github.com/squizlabs/PHP_CodeSniffer)使代码符合psr
   - [编码风格参考](https://github.com/clms2/arcs/issues/24)

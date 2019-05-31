@@ -30,6 +30,7 @@
   - [shell if](https://www.cnblogs.com/aaronLinux/p/7074725.html)
   - [awk](http://blog.jobbole.com/114490/)
   - [提高效率的linux技巧](http://blog.jobbole.com/114424/)
+  - [php编译完的环境新增扩展](https://github.com/clms2/arcs/issues/41)
 
 ### apache
   - [apache常用命令](https://github.com/clms2/arcs/issues/30)

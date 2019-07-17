@@ -2,7 +2,6 @@
 
 ### Laravel
   - [使用模型和模型关系的好处](https://github.com/clms2/arcs/issues/1)
-  - [laravel定时任务](https://divinglaravel.com/task-scheduling)
   - [使laravel查询更优雅的方式](https://segmentfault.com/a/1190000012987608)
   - [laravel最佳实践](https://github.com/clms2/arcs/issues/14)
   - [1对多关系的表，获取1表的20条数据，同时获取多表最新几条数据](https://github.com/clms2/arcs/issues/16)

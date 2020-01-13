@@ -86,6 +86,10 @@
 ### Vue
  - [vue采坑](https://github.com/clms2/arcs/issues/21)
 
+### Selenium
+ - [chromeDriver镜像](https://npm.taobao.org/mirrors/chromedriver/)
+ - [chrome](http://chromedriver.storage.googleapis.com/index.html)
+
 ### other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
   - [py-key-sender-unfinished](https://github.com/clms2/arcs/blob/master/res/other/py-key-sender-unfinished.zip)

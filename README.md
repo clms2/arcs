@@ -90,6 +90,9 @@
  - [chromeDriver镜像](https://npm.taobao.org/mirrors/chromedriver/)
  - [chrome](http://chromedriver.storage.googleapis.com/index.html)
 
+### Python
+ - [python踩坑](https://github.com/clms2/arcs/issues/42)
+
 ### other
   - [线上bug/生产事故汇总](https://github.com/clms2/arcs/issues/9)
   - [py-key-sender-unfinished](https://github.com/clms2/arcs/blob/master/res/other/py-key-sender-unfinished.zip)

@@ -99,3 +99,4 @@
   - [sublime3个人配置](https://github.com/clms2/arcs/issues/33)
 <!--  - [阳明心学总结](https://github.com/clms2/arcs/blob/master/res/txt/ym.md)-->
   - [关于微服务化的api project demo](https://github.com/clms2/arcs/issues/27)
+  - [other](https://github.com/clms2/arcs/issues/44)

@@ -1,0 +1,100 @@
+mysql主从配置：
+主库：10.54.87.1 从库：10.54.87.6
+
+
+主从配置前关闭主数据库 然后导出全部数据库到从库上
+排除了mysql系统库的导出命令：
+mysql -e "show databases;" -uroot -p | grep -Ev "Database|information_schema|mysql|performance_schema|sys" | xargs mysqldump -uroot --skip-lock-tables -p --databases > all.sql
+
+scp -p ./all.sql 10.54.87.6:/root/
+进入从库
+mysql -u进去后
+source /root/all.sql
+
+
+还有种直接传输到另外服务器上 无需备份文件再传输 在主库上执行
+查找当前数据库：
+SELECT DISTINCT table_schema FROM information_schema.`tables` WHERE table_type='BASE TABLE' AND table_schema NOT IN('performance_schema', 'mysql', 'sys')
+shell脚本：
+#!/bin/bash
+
+arr=('test-bbb.com' 'test-mall.com')
+for db in "${arr[@]}";do
+	/usr/bin/mysql -uroot -pxxx -h10.54.87.6 -e "CREATE DATABASE \`${db}\` charset utf8mb4 COLLATE utf8mb4_general_ci;" 
+	/usr/bin/mysqldump -uroot -pxxx --skip-add-drop-table --set-gtid-purged=off  $db| /usr/bin/mysql -uroot -pxxx -h10.54.87.6 $db
+done
+
+
+备注：当时遇到了权限问题，root账户需要process权限，grant process on *.* to root@127.0.0.1  再flush下就行
+
+主库配置my.cnf:
+server-id = 1
+log-bin = mysql-bin     #开启mysql的binlog日志功能
+sync_binlog = 100         #控制数据库的binlog刷到磁盘上去 , 0 不控制，性能最好，1每次事物提交都会刷到日志文件中，性能最差，最安全
+binlog_format = mixed   #binlog日志格式，mysql默认采用statement，建议使用mixed
+expire_logs_days = 30                           #binlog过期清理时间
+max_binlog_size = 500m                    #binlog每个日志文件大小
+binlog_cache_size = 4m                        #binlog缓存大小
+max_binlog_cache_size= 500m              #最大binlog缓存大
+binlog-ignore-db=mysql,information_schema,sys,performance_schema #不生成日志文件的数据库，多个忽略数据库可以用逗号拼接，或者 复制这句话，写多行
+slave-skip-errors = all #跳过从库错误
+
+从库配置my.cnf:
+server-id = 2        # 节点ID，确保唯一
+log-bin=mysql-bin
+relay-log = mysql-relay-bin
+replicate-wild-ignore-table=mysql.%
+replicate-wild-ignore-table=information_schema.%
+replicate-wild-ignore-table=sys.%
+replicate-wild-ignore-table=performance_schema.%
+
+在主库执行sql：
+CREATE USER repl_user IDENTIFIED BY 'xxxx';
+grant replication slave on *.* to 'repl_user'@'10.54.87.6'  identified by 'xxxx';
+FLUSH PRIVILEGES;
+
+主库查看
+show master status;
+记录下文件名：mysql-bin.000002  position：1226439在以下sql中替换
+从库执行：
+stop slave;
+CHANGE MASTER TO MASTER_HOST = '10.54.87.1',  MASTER_USER = 'repl_user', MASTER_PASSWORD = 'xxxx',MASTER_PORT = 3306,MASTER_LOG_FILE='主库bin文件',MASTER_LOG_POS=主库的position,MASTER_RETRY_COUNT = 60,MASTER_HEARTBEAT_PERIOD = 10000; 
+start slave;
+
+如果有报错的话 reset slave 重新配置
+
+mysql日志里有超时的报错的话，设置下从库的slave_net_timeout, set global slave_net_timeout=15000
+
+
+后期主库10.54.87.1有问题的话，切换备用库10.54.87.6作为主库：
+备用库（10.54.87.6）也得加上：
+sync_binlog = 100         #控制数据库的binlog刷到磁盘上去 , 0 不控制，性能最好，1每次事物提交都会刷到日志文件中，性能最差，最安全
+binlog_format = mixed   #binlog日志格式，mysql默认采用statement，建议使用mixed
+expire_logs_days = 30                           #binlog过期清理时间
+max_binlog_size = 500m                    #binlog每个日志文件大小
+binlog_cache_size = 4m                        #binlog缓存大小
+max_binlog_cache_size= 500m              #最大binlog缓存大
+binlog-ignore-db=mysql #不生成日志文件的数据库，多个忽略数据库可以用逗号拼接，或者 复制这句话，写多行
+
+
+新的主库（10.54.87.6）：
+CREATE USER repl_user IDENTIFIED BY 'xxxx';
+grant replication slave on *.* to 'repl_user'@'10.54.87.1'  identified by 'xxxx';
+FLUSH PRIVILEGES;
+
+show master status;
+记录下file和pos
+
+然后原来的主库（10.54.87.1）修改配置文件：
+relay-log = mysql-relay-bin
+replicate-wild-ignore-table=mysql.%
+replicate-wild-ignore-table=information_schema.%
+replicate-wild-ignore-table=sys.%
+replicate-wild-ignore-table=performance_schema.%
+
+再执行：
+stop slave;
+CHANGE MASTER TO MASTER_HOST = '10.54.87.6',  MASTER_USER = 'repl_user', MASTER_PASSWORD = 'xxxx',MASTER_PORT = 3306,MASTER_LOG_FILE='mysql-bin.000002',MASTER_LOG_POS=1226439,MASTER_RETRY_COUNT = 60,MASTER_HEARTBEAT_PERIOD = 10000; 
+start slave;
+
+

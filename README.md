@@ -50,6 +50,7 @@
   - [数据库规范参考](https://github.com/clms2/arcs/issues/25)
   - [mysql explain说明](https://github.com/clms2/arcs/issues/29)
   - [mysql不常用sql](https://github.com/clms2/arcs/issues/32)
+  - [主从配置](https://github.com/clms2/arcs/issues/47)
   
 ### third tool
 #### 1. sonarQube
